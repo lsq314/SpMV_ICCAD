@@ -1,1 +1,1 @@
-We provide the testbench using in Vivado SDK. Please update the *rows, columns, total, rowlengt* according to the summary shown in "Preprocessing/logs.txt".
+We provide the testbench using in Vivado SDK. Please update the *rows, columns, total, rowlengt* according to the summary shown in "Preprocessing/logs.txt". Specifically, rows --> "Totally {} rows", columns --> "The final vector length is {}", total --> "Totally {} groups", rowlength --> "Totally {} batches".
