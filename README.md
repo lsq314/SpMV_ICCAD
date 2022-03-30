@@ -15,3 +15,12 @@ The code for our ICCAD work "Optimized Data Reuse via Reordering for Sparse Matr
 
 ## Experimental Setup
 We evaluate the design on Xilinx ZCU106 under 100MHz and the Vivado toolchain's version is 2018.3.
+
+## HLS
+The folder contains the HLS code and script.
+
+## Preprocessing
+The folder contains the Python code of preprocessing. The output binary files which contains the sparse matrix elements can be found in "Preprocessing/bino/{benchmark}" and then you can copy the files into your SD card.
+
+## Vivado_SDK
+The folder contains the tcl file of Vivado block design and the testbench of Vivado SDK. Note that you need to change some values in the testbench following the README.md in the folder.
