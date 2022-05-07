@@ -211,8 +211,8 @@ void final_data(id_stream* c1, id_stream* c2, id_stream* c3, id_stream* c4, val_
 	bool enable = false;
 	for (; !enable; ){
 #pragma HLS PIPELINE II=1
-		uint32_t data1 = from1->read();
-		uint32_t data2 = from2->read();
+		val_t data1 = from1->read();
+		val_t data2 = from2->read();
 
 		if (!keepInput) {
 			cdata1 = c1->read();
